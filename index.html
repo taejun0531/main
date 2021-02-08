@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="./css/main.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="./favicon.ico">
+  <title>PORTFOLIO</title>
+</head> 
+<body>
+  <div id="container">
+    <!-- 그냥 대문... fixed 배경 이미지 -->
+    <div class="main">
+      <h1 class="main__headline">
+        HELLO, I'M TaeJunYun
+      </h1>
+    </div>
+    <div class="content">
+      <header>
+        <nav>
+        <ul class="nav-bar">
+          <li class="nav-item"><a href="#about">ABOUT</a></li>
+          <li class="nav-item"><a href="#skills">SKILLS</a></li>
+          <li class="nav-item"><a href="#port">PROJECT</a></li>
+          <li class="nav-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+        </nav>
+      </header>
+      <section>
+        <article id="about">
+          <h2>ABOUT TAEJUN</h2>
+          <ul class="about">
+            <li class="about__photo">
+              <img src="./images/taejun.jpg" alt="프로필 사진">
+            </li>
+            <li class="about__introduction">
+              <h3 class="category">PROFILE</h3>
+              <p>
+                # 윤태준 TaeJunYun<br>
+                03년생(19) 홈스쿨링<br>
+                <br>
+                <br><br>
+                # 장점 STRENGTH<br>
+                관심 갖는 분야는 잘 할 수 있도록 노력한다.<br>
+                한 번 시작한 일은 포기하지 않는다.
+                <br><br>
+                # 단점 WEAKNESS<br>
+                원하는 목표가 없으면 노력하지 않는다.<br><br>
+                <br>
+              </p>
+              <h3 class="category">CAREER</h3>
+              <p>
+                # JOB<br>
+                학교는 다니지 않는 학생<br><br>
+                # LEARNED HISTORY<br>
+                정보보안<br>
+                ( 취약점 분석 ) ( 해킹법 )<br><br>
+                # 그 외 SKILLS 참고
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article id="skills">
+          <h2>SKILLS</h2>
+            <div class="skills">
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/html.png"/></h2>
+                <p>HTML</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/css.png"/></h2>
+                <p>CSS</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/js.png"/></h2>
+                <p>JAVASCRIPT</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/jquery.png"/></h2>
+                <p>JQUERY</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/react.png"/></h2>
+                <p>REACT</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/jsp.png"/></h2>
+                <p>JSP</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/c.png"/></h2>
+                <p>C</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/c++.png"/></h2>
+                <p>C++</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/java.png"/></h2>
+                <p>JAVA</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/python.png"/></h2>
+                <p>PYTHON</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/android.png"/></h2>
+                <p>ANDROID</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/linux.png"/></h2>
+                <p>LINUX</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/oracle.png"/></h2>
+                <p>Oracle Database</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite"><img src="./images/sql.png"/></h2>
+                <p>SQL</p>
+              </div>
+            </div>
+        </article>
+        <article id="port">
+          <h2>PROJECT</h2>
+          <button class="prev" onclick="prev()">
+            <i class="fa-5x fas fa-angle-left"></i>
+          </button>
+          <div class="single-items">
+            <div class="item active">
+              <div class="item__left">
+                <a href="https://taejun0531.github.io/kakaotalk/" target="_blank">
+                  <img class="monitor" src="./images/monitor.png"/>
+                  <img class="kakaotalk-screen" src="./images/kakaotalk-screen.png"/>
+                </a>
+              </div>
+              <div class="item__right">
+                <h2>Kakaotalk</h2>
+                <p>카카오톡 클론 앱 페이지입니다.<br>
+                React를 사용해 만들었습니다.<br><br><br>
+                ※ 클릭하면 페이지로 이동됩니다. ※
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__left">
+                <a href="https://taejun0531.github.io/typing-game/" target="_blank">
+                  <img class="monitor" src="./images/monitor.png"/>
+                  <img class="typing-game-screen" src="./images/typing_game-screen.PNG"/>
+                </a>
+              </div>
+              <div class="item__right">
+                <h2>TypingGame</h2>
+                <p>단어에 맞게 타자를 쳐, 점수를 얻는 게임입니다.<br>
+                React Hook을 사용해 만들었습니다.<br><br><br>
+                ※ 클릭하면 페이지로 이동됩니다. ※
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__left">
+                <a href="https://taejun0531.github.io/avengers/" target="_blank">
+                  <img class="monitor" src="./images/monitor.png"/>
+                  <img class="avengers-screen" src="./images/avengers-screen.png"/>
+                </a>
+              </div>
+              <div class="item__right">
+                <h2>Avengers</h2>
+                <p>translateZ( ) 를 사용한 입체 이미지 페이지입니다.<br>
+                  JQUERY를 사용해 만들었습니다.<br><br><br>
+                  ※ 클릭하면 페이지로 이동됩니다. ※
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__left">
+                <a href="https://taejun0531.github.io/starbucks/" target="_blank">
+                  <img class="monitor" src="./images/monitor.png"/>
+                  <img class="starbucks-screen" src="./images/starbucks_screen.PNG"/>
+                </a>
+              </div>
+              <div class="item__right">
+                <h2>Starbucks</h2>
+                <p>스타벅스 사이트 클론 페이지입니다.<br>
+                반응형도 약간 추가했습니다.<br><br><br>
+                ※ 클릭하면 페이지로 이동됩니다. ※
+                </p>
+              </div>
+            </div>
+          </div>
+          <ul class="stepper">
+            <li class="step active-step"><i class="fas fa-circle"></i></li>
+            <li class="step"><i class="fas fa-circle"></i></li>
+            <li class="step"><i class="fas fa-circle"></i></li>
+            <li class="step"><i class="fas fa-circle"></i></li>
+          </ul>
+          <button class="next" onclick="next()">
+            <i class="fa-5x fas fa-angle-right"></i>
+          </button>
+        </article>
+      </section>
+    </div>
+    <footer id="contact">
+      <h2>CONTACT</h2>
+      <div class="contacts">
+        <div class="contacts__email">
+          <h3>MAIL</h3>
+          <p>taejun0531@naver.com</p>
+        </div>
+        <div class="contacts__phone">
+          <h3>PHONE</h3>
+          <p>010-4013-0876</p>
+        </div>
+        <div class="contacts__sns">
+          <h3>SNS</h3>
+          <p>@taejun_yun_</p>
+        </div>
+      </div>
+      <p style="text-align: center;">Copyright &copy; 윤태준. All Right Reserved.</p>
+    </footer>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/c8e2b99a17.js" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+article:nth-child(3) > h2{  
+  font-size: 54px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+article:nth-child(3){
+  position: relative;
+  height: 700px;
+  padding-bottom: 60px;
+}
+.single-items{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* each-item */
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active{
+  height: 400px;
+  width: 1000px;
+}
+.item__left{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__left > a{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  position: relative;
+}
+.item__right{
+  width: 40%;
+  height: 100%;
+  text-align: left;
+}
+.item__right > h2 {
+  margin-bottom: 35px;
+  text-align: left;
+}
+.item__right > p {
+  font-size: 18px;
+}
+
+img.monitor{
+  width: calc(100% - 80px);
+  height: 100%;
+}
+img.kakaotalk-screen, img.typing-game-screen, img.avengers-screen, img.starbucks-screen {
+  width: 470px;
+  height: 250px;
+  position: absolute;
+  top: 17px;
+  left: 27px;
+}
+
+ul[class="stepper"]{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul[class="stepper"] > li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.active-step{
+  color:red;
+}
+button, button:active, button:focus{
+  position: absolute;
+  top: 45%;
+  transform: translate(0, -50%);
+  width: 50px; height: 20px;
+  border: none; background-color: transparent;
+  color: red;
+  outline: none;
+}
+button:hover{
+  color: white;
+}
+button:disabled{
+  color: gray;
+}
+.prev{
+  left: 30px;
+}
+.next{
+  right: 30px;
+}
